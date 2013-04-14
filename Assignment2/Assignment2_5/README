@@ -1,0 +1,14 @@
+#README
+
+Compiled using make file on putty servers
+
+To run: ensure screen is roughly 500px by 700 px in dimensions
+
+If running for the first time, type 'make' and the source files will compile.
+To run the game simply type "./Main" (without quotation marks)
+
+Note: valgrind spewed up major memory leaks, was able to get them down by aboout 50%. For the remaining leaks, was a little worried about tampering with the code to causing pointers to misfire.
+
+Cheers,
+Devon Ring
+100801142

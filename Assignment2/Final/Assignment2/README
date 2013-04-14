@@ -1,0 +1,34 @@
+#README
+
+Compiled using make file on putty servers
+
+To run: ensure screen is roughly 500px by 700 px in dimensions
+
+If running for the first time, type 'make' and the source files will compile.
+To run the game simply type "./Main" (without quotation marks)
+
+The deque.cpp/deque.h arent used, the deque is in the PirateLine.cpp/.h class
+
+Note: valgrind spewed up major memory leaks, was able to get them down by aboout 50%. For the remaining leaks, was a little worried about tampering with the code to causing pointers to misfire. The memory for the deque is whiped, must be some thing node related or pointer.
+
+
+Out put : 
++-------------------------------------------------+
+|Hero Base Stats|  Strength   |  Health  | Armor  |
++-------------------------------------------------+
+|     Tortoise  |      5      |    30    |     8  |
++-------------------------------------------------+
+|     Hare      |      8      |    30    |     5  |
++-------------------------------------------------+
++---------------------------------------------------------+
+|  Swordsman   |   % success   | % part succ.  |  % fail  |
++---------------------------------------------------------+
+|  Tortoise    |     5       |     53     |    42   | 
++---------------------------------------------------------+
+|  Hare        |       99      |       1   |      0   |
++---------------------------------------------------------+
+The dents are to accomadate for decimal places when the # of plays is increased beyond 100
+
+Cheers,
+Devon Ring
+100801142

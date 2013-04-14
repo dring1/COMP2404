@@ -1,0 +1,12 @@
+#README
+
+The game is preferably played in full screen.
+The board is a horizontal representation of the mountain from an aerial point of view.
+To play the game cd into the directory of where the source files have been saved.
+If running for the first time, type 'make' and the source files will compile.
+To run the game simply type "./Main" (without quotation marks)
+The game will simulate the race, the x values represent climbing the mountain vertically.
+Whereas the y values represent side stepping on the mountain
+Cheers,
+Devon Ring
+100801142

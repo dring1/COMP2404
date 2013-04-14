@@ -1,0 +1,16 @@
+#README
+
+The game MUST be played at full screen, otherwise characters will be misplaced.
+The board is a horizontal representation of the mountain from an aerial point of view.
+To play the game cd into the directory of where the source files have been saved.
+If running for the first time, type 'make' and the source files will compile.
+To run the game simply type "./Main" (without quotation marks)
+The game will simulate the race, the x values represent climbing the mountain vertically.
+Whereas the y values represent side stepping on the mountain
+
+Just some quick notes: Energy will update on the Hare/Torts following turn 
+As well, if the character appears to fall back diagonally it has moved back, missed its horizontal move, then proceeded to the next turn. Took a lot of testing to figure this out.
+
+Cheers,
+Devon Ring
+100801142
